@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84131F21176EACB400247373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84131F20176EACB400247373 /* UIKit.framework */; };
+		84131F23176EACB400247373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84131F22176EACB400247373 /* Foundation.framework */; };
+		84131F25176EACB400247373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84131F24176EACB400247373 /* CoreGraphics.framework */; };
+		84131F2B176EACB400247373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84131F29176EACB400247373 /* InfoPlist.strings */; };
+		84131F2D176EACB400247373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84131F2C176EACB400247373 /* main.m */; };
+		84131F31176EACB400247373 /* QQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84131F30176EACB400247373 /* QQAppDelegate.m */; };
+		84131F33176EACB400247373 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F32176EACB400247373 /* Default.png */; };
+		84131F35176EACB400247373 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F34176EACB400247373 /* Default@2x.png */; };
+		84131F37176EACB400247373 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F36176EACB400247373 /* Default-568h@2x.png */; };
+		84131F3A176EACB400247373 /* QQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84131F39176EACB400247373 /* QQViewController.m */; };
+		84131F3D176EACB400247373 /* QQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84131F3B176EACB400247373 /* QQViewController.xib */; };
+		84131F46176EACD500247373 /* login_bg_ip5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84131F43176EACD500247373 /* login_bg_ip5@2x.jpg */; };
+		84131F47176EACD500247373 /* login_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84131F44176EACD500247373 /* login_bg.jpg */; };
+		84131F48176EACD500247373 /* login_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84131F45176EACD500247373 /* login_bg@2x.jpg */; };
+		84131F4D176EAE0B00247373 /* login_btn_blue_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F49176EAE0B00247373 /* login_btn_blue_nor.png */; };
+		84131F4E176EAE0B00247373 /* login_btn_blue_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F4A176EAE0B00247373 /* login_btn_blue_nor@2x.png */; };
+		84131F4F176EAE0B00247373 /* login_btn_blue_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F4B176EAE0B00247373 /* login_btn_blue_press.png */; };
+		84131F50176EAE0B00247373 /* login_btn_blue_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F4C176EAE0B00247373 /* login_btn_blue_press@2x.png */; };
+		84131F55176EAEC600247373 /* login_dropdown_avatar_border.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F51176EAEC600247373 /* login_dropdown_avatar_border.png */; };
+		84131F56176EAEC600247373 /* login_dropdown_avatar_border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F52176EAEC600247373 /* login_dropdown_avatar_border@2x.png */; };
+		84131F57176EAEC600247373 /* login_dropdown_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F53176EAEC600247373 /* login_dropdown_bg.png */; };
+		84131F58176EAEC600247373 /* login_dropdown_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F54176EAEC600247373 /* login_dropdown_bg@2x.png */; };
+		84131F5D176EAEE200247373 /* login_avatar_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F59176EAEE200247373 /* login_avatar_default.png */; };
+		84131F5E176EAEE200247373 /* login_avatar_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F5A176EAEE200247373 /* login_avatar_default@2x.png */; };
+		84131F5F176EAEE200247373 /* login_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F5B176EAEE200247373 /* login_avatar.png */; };
+		84131F60176EAEE200247373 /* login_avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F5C176EAEE200247373 /* login_avatar@2x.png */; };
+		84131F63176EAF9B00247373 /* login_textfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F61176EAF9B00247373 /* login_textfield.png */; };
+		84131F64176EAF9B00247373 /* login_textfield@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F62176EAF9B00247373 /* login_textfield@2x.png */; };
+		84131F69176EB00C00247373 /* login_textfield_more_flip.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F65176EB00C00247373 /* login_textfield_more_flip.png */; };
+		84131F6A176EB00C00247373 /* login_textfield_more_flip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F66176EB00C00247373 /* login_textfield_more_flip@2x.png */; };
+		84131F6B176EB00C00247373 /* login_textfield_more.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F67176EB00C00247373 /* login_textfield_more.png */; };
+		84131F6C176EB00C00247373 /* login_textfield_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F68176EB00C00247373 /* login_textfield_more@2x.png */; };
+		84131F72176EB07F00247373 /* login_textfield_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F6D176EB07F00247373 /* login_textfield_bottom.png */; };
+		84131F73176EB07F00247373 /* login_textfield_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F6E176EB07F00247373 /* login_textfield_bottom@2x.png */; };
+		84131F74176EB07F00247373 /* login_textfield_mid.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F6F176EB07F00247373 /* login_textfield_mid.png */; };
+		84131F75176EB07F00247373 /* login_textfield_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F70176EB07F00247373 /* login_textfield_top.png */; };
+		84131F76176EB07F00247373 /* login_textfield_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84131F71176EB07F00247373 /* login_textfield_top@2x.png */; };
+		84131F78176EB6D100247373 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84131F77176EB6D100247373 /* QuartzCore.framework */; };
+		84131F7A176EC4BE00247373 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84131F79176EC4BE00247373 /* 1.jpeg */; };
+		84131F7C176EC74D00247373 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84131F7B176EC74D00247373 /* 2.jpeg */; };
+		84131F7E176ECC3B00247373 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84131F7D176ECC3B00247373 /* 3.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84131F1D176EACB400247373 /* QQLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84131F20176EACB400247373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84131F22176EACB400247373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84131F24176EACB400247373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84131F28176EACB400247373 /* QQLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QQLogin-Info.plist"; sourceTree = "<group>"; };
+		84131F2A176EACB400247373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84131F2C176EACB400247373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84131F2E176EACB400247373 /* QQLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QQLogin-Prefix.pch"; sourceTree = "<group>"; };
+		84131F2F176EACB400247373 /* QQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQAppDelegate.h; sourceTree = "<group>"; };
+		84131F30176EACB400247373 /* QQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQAppDelegate.m; sourceTree = "<group>"; };
+		84131F32176EACB400247373 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84131F34176EACB400247373 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84131F36176EACB400247373 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84131F38176EACB400247373 /* QQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQViewController.h; sourceTree = "<group>"; };
+		84131F39176EACB400247373 /* QQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQViewController.m; sourceTree = "<group>"; };
+		84131F3C176EACB400247373 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QQViewController.xib; sourceTree = "<group>"; };
+		84131F43176EACD500247373 /* login_bg_ip5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login_bg_ip5@2x.jpg"; sourceTree = "<group>"; };
+		84131F44176EACD500247373 /* login_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg.jpg; sourceTree = "<group>"; };
+		84131F45176EACD500247373 /* login_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login_bg@2x.jpg"; sourceTree = "<group>"; };
+		84131F49176EAE0B00247373 /* login_btn_blue_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_btn_blue_nor.png; sourceTree = "<group>"; };
+		84131F4A176EAE0B00247373 /* login_btn_blue_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_btn_blue_nor@2x.png"; sourceTree = "<group>"; };
+		84131F4B176EAE0B00247373 /* login_btn_blue_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_btn_blue_press.png; sourceTree = "<group>"; };
+		84131F4C176EAE0B00247373 /* login_btn_blue_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_btn_blue_press@2x.png"; sourceTree = "<group>"; };
+		84131F51176EAEC600247373 /* login_dropdown_avatar_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_dropdown_avatar_border.png; sourceTree = "<group>"; };
+		84131F52176EAEC600247373 /* login_dropdown_avatar_border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_dropdown_avatar_border@2x.png"; sourceTree = "<group>"; };
+		84131F53176EAEC600247373 /* login_dropdown_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_dropdown_bg.png; sourceTree = "<group>"; };
+		84131F54176EAEC600247373 /* login_dropdown_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_dropdown_bg@2x.png"; sourceTree = "<group>"; };
+		84131F59176EAEE200247373 /* login_avatar_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_avatar_default.png; sourceTree = "<group>"; };
+		84131F5A176EAEE200247373 /* login_avatar_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_avatar_default@2x.png"; sourceTree = "<group>"; };
+		84131F5B176EAEE200247373 /* login_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_avatar.png; sourceTree = "<group>"; };
+		84131F5C176EAEE200247373 /* login_avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_avatar@2x.png"; sourceTree = "<group>"; };
+		84131F61176EAF9B00247373 /* login_textfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_textfield.png; sourceTree = "<group>"; };
+		84131F62176EAF9B00247373 /* login_textfield@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_textfield@2x.png"; sourceTree = "<group>"; };
+		84131F65176EB00C00247373 /* login_textfield_more_flip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_textfield_more_flip.png; sourceTree = "<group>"; };
+		84131F66176EB00C00247373 /* login_textfield_more_flip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_textfield_more_flip@2x.png"; sourceTree = "<group>"; };
+		84131F67176EB00C00247373 /* login_textfield_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_textfield_more.png; sourceTree = "<group>"; };
+		84131F68176EB00C00247373 /* login_textfield_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_textfield_more@2x.png"; sourceTree = "<group>"; };
+		84131F6D176EB07F00247373 /* login_textfield_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_textfield_bottom.png; sourceTree = "<group>"; };
+		84131F6E176EB07F00247373 /* login_textfield_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_textfield_bottom@2x.png"; sourceTree = "<group>"; };
+		84131F6F176EB07F00247373 /* login_textfield_mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_textfield_mid.png; sourceTree = "<group>"; };
+		84131F70176EB07F00247373 /* login_textfield_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_textfield_top.png; sourceTree = "<group>"; };
+		84131F71176EB07F00247373 /* login_textfield_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_textfield_top@2x.png"; sourceTree = "<group>"; };
+		84131F77176EB6D100247373 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84131F79176EC4BE00247373 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		84131F7B176EC74D00247373 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		84131F7D176ECC3B00247373 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84131F1A176EACB400247373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84131F78176EB6D100247373 /* QuartzCore.framework in Frameworks */,
+				84131F21176EACB400247373 /* UIKit.framework in Frameworks */,
+				84131F23176EACB400247373 /* Foundation.framework in Frameworks */,
+				84131F25176EACB400247373 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84131F14176EACB400247373 = {
+			isa = PBXGroup;
+			children = (
+				84131F26176EACB400247373 /* QQLogin */,
+				84131F1F176EACB400247373 /* Frameworks */,
+				84131F1E176EACB400247373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84131F1E176EACB400247373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84131F1D176EACB400247373 /* QQLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84131F1F176EACB400247373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84131F77176EB6D100247373 /* QuartzCore.framework */,
+				84131F20176EACB400247373 /* UIKit.framework */,
+				84131F22176EACB400247373 /* Foundation.framework */,
+				84131F24176EACB400247373 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84131F26176EACB400247373 /* QQLogin */ = {
+			isa = PBXGroup;
+			children = (
+				84131F7B176EC74D00247373 /* 2.jpeg */,
+				84131F7D176ECC3B00247373 /* 3.jpeg */,
+				84131F79176EC4BE00247373 /* 1.jpeg */,
+				84131F2F176EACB400247373 /* QQAppDelegate.h */,
+				84131F30176EACB400247373 /* QQAppDelegate.m */,
+				84131F38176EACB400247373 /* QQViewController.h */,
+				84131F39176EACB400247373 /* QQViewController.m */,
+				84131F3B176EACB400247373 /* QQViewController.xib */,
+				84131F6D176EB07F00247373 /* login_textfield_bottom.png */,
+				84131F6E176EB07F00247373 /* login_textfield_bottom@2x.png */,
+				84131F6F176EB07F00247373 /* login_textfield_mid.png */,
+				84131F70176EB07F00247373 /* login_textfield_top.png */,
+				84131F71176EB07F00247373 /* login_textfield_top@2x.png */,
+				84131F65176EB00C00247373 /* login_textfield_more_flip.png */,
+				84131F66176EB00C00247373 /* login_textfield_more_flip@2x.png */,
+				84131F67176EB00C00247373 /* login_textfield_more.png */,
+				84131F68176EB00C00247373 /* login_textfield_more@2x.png */,
+				84131F61176EAF9B00247373 /* login_textfield.png */,
+				84131F62176EAF9B00247373 /* login_textfield@2x.png */,
+				84131F59176EAEE200247373 /* login_avatar_default.png */,
+				84131F5A176EAEE200247373 /* login_avatar_default@2x.png */,
+				84131F5B176EAEE200247373 /* login_avatar.png */,
+				84131F5C176EAEE200247373 /* login_avatar@2x.png */,
+				84131F51176EAEC600247373 /* login_dropdown_avatar_border.png */,
+				84131F52176EAEC600247373 /* login_dropdown_avatar_border@2x.png */,
+				84131F53176EAEC600247373 /* login_dropdown_bg.png */,
+				84131F54176EAEC600247373 /* login_dropdown_bg@2x.png */,
+				84131F49176EAE0B00247373 /* login_btn_blue_nor.png */,
+				84131F4A176EAE0B00247373 /* login_btn_blue_nor@2x.png */,
+				84131F4B176EAE0B00247373 /* login_btn_blue_press.png */,
+				84131F4C176EAE0B00247373 /* login_btn_blue_press@2x.png */,
+				84131F43176EACD500247373 /* login_bg_ip5@2x.jpg */,
+				84131F44176EACD500247373 /* login_bg.jpg */,
+				84131F45176EACD500247373 /* login_bg@2x.jpg */,
+				84131F27176EACB400247373 /* Supporting Files */,
+			);
+			path = QQLogin;
+			sourceTree = "<group>";
+		};
+		84131F27176EACB400247373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84131F28176EACB400247373 /* QQLogin-Info.plist */,
+				84131F29176EACB400247373 /* InfoPlist.strings */,
+				84131F2C176EACB400247373 /* main.m */,
+				84131F2E176EACB400247373 /* QQLogin-Prefix.pch */,
+				84131F32176EACB400247373 /* Default.png */,
+				84131F34176EACB400247373 /* Default@2x.png */,
+				84131F36176EACB400247373 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84131F1C176EACB400247373 /* QQLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84131F40176EACB400247373 /* Build configuration list for PBXNativeTarget "QQLogin" */;
+			buildPhases = (
+				84131F19176EACB400247373 /* Sources */,
+				84131F1A176EACB400247373 /* Frameworks */,
+				84131F1B176EACB400247373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQLogin;
+			productName = QQLogin;
+			productReference = 84131F1D176EACB400247373 /* QQLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84131F15176EACB400247373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QQ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Reese;
+			};
+			buildConfigurationList = 84131F18176EACB400247373 /* Build configuration list for PBXProject "QQLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84131F14176EACB400247373;
+			productRefGroup = 84131F1E176EACB400247373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84131F1C176EACB400247373 /* QQLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84131F1B176EACB400247373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84131F2B176EACB400247373 /* InfoPlist.strings in Resources */,
+				84131F33176EACB400247373 /* Default.png in Resources */,
+				84131F35176EACB400247373 /* Default@2x.png in Resources */,
+				84131F37176EACB400247373 /* Default-568h@2x.png in Resources */,
+				84131F3D176EACB400247373 /* QQViewController.xib in Resources */,
+				84131F46176EACD500247373 /* login_bg_ip5@2x.jpg in Resources */,
+				84131F47176EACD500247373 /* login_bg.jpg in Resources */,
+				84131F48176EACD500247373 /* login_bg@2x.jpg in Resources */,
+				84131F4D176EAE0B00247373 /* login_btn_blue_nor.png in Resources */,
+				84131F4E176EAE0B00247373 /* login_btn_blue_nor@2x.png in Resources */,
+				84131F4F176EAE0B00247373 /* login_btn_blue_press.png in Resources */,
+				84131F50176EAE0B00247373 /* login_btn_blue_press@2x.png in Resources */,
+				84131F55176EAEC600247373 /* login_dropdown_avatar_border.png in Resources */,
+				84131F56176EAEC600247373 /* login_dropdown_avatar_border@2x.png in Resources */,
+				84131F57176EAEC600247373 /* login_dropdown_bg.png in Resources */,
+				84131F58176EAEC600247373 /* login_dropdown_bg@2x.png in Resources */,
+				84131F5D176EAEE200247373 /* login_avatar_default.png in Resources */,
+				84131F5E176EAEE200247373 /* login_avatar_default@2x.png in Resources */,
+				84131F5F176EAEE200247373 /* login_avatar.png in Resources */,
+				84131F60176EAEE200247373 /* login_avatar@2x.png in Resources */,
+				84131F63176EAF9B00247373 /* login_textfield.png in Resources */,
+				84131F64176EAF9B00247373 /* login_textfield@2x.png in Resources */,
+				84131F69176EB00C00247373 /* login_textfield_more_flip.png in Resources */,
+				84131F6A176EB00C00247373 /* login_textfield_more_flip@2x.png in Resources */,
+				84131F6B176EB00C00247373 /* login_textfield_more.png in Resources */,
+				84131F6C176EB00C00247373 /* login_textfield_more@2x.png in Resources */,
+				84131F72176EB07F00247373 /* login_textfield_bottom.png in Resources */,
+				84131F73176EB07F00247373 /* login_textfield_bottom@2x.png in Resources */,
+				84131F74176EB07F00247373 /* login_textfield_mid.png in Resources */,
+				84131F75176EB07F00247373 /* login_textfield_top.png in Resources */,
+				84131F76176EB07F00247373 /* login_textfield_top@2x.png in Resources */,
+				84131F7A176EC4BE00247373 /* 1.jpeg in Resources */,
+				84131F7C176EC74D00247373 /* 2.jpeg in Resources */,
+				84131F7E176ECC3B00247373 /* 3.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84131F19176EACB400247373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84131F2D176EACB400247373 /* main.m in Sources */,
+				84131F31176EACB400247373 /* QQAppDelegate.m in Sources */,
+				84131F3A176EACB400247373 /* QQViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84131F29176EACB400247373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84131F2A176EACB400247373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84131F3B176EACB400247373 /* QQViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84131F3C176EACB400247373 /* en */,
+			);
+			name = QQViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84131F3E176EACB400247373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84131F3F176EACB400247373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84131F41176EACB400247373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQLogin/QQLogin-Prefix.pch";
+				INFOPLIST_FILE = "QQLogin/QQLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84131F42176EACB400247373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QQLogin/QQLogin-Prefix.pch";
+				INFOPLIST_FILE = "QQLogin/QQLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84131F18176EACB400247373 /* Build configuration list for PBXProject "QQLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84131F3E176EACB400247373 /* Debug */,
+				84131F3F176EACB400247373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84131F40176EACB400247373 /* Build configuration list for PBXNativeTarget "QQLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84131F41176EACB400247373 /* Debug */,
+				84131F42176EACB400247373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84131F15176EACB400247373 /* Project object */;
+}
